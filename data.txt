@@ -1,0 +1,14 @@
+CREATE DATABASE graphql;
+
+CREATE TABLE player(
+     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+     name VARCHAR(100),
+     surname VARCHAR(100),
+     position VARCHAR(100)
+);
+
+INSERT INTO `player` (`id`, `name`, `surname`, `position`) VALUES ('1', 'John', 'Doe', 'PG');
+
+INSERT INTO `player` (`id`, `name`, `surname`, `position`) VALUES ('2', 'Tim', 'Hanks', 'SG');
+
+INSERT INTO `player` (`id`, `name`, `surname`, `position`) VALUES ('3', 'Jim', 'Rent', 'SF');

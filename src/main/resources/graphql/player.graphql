@@ -1,0 +1,20 @@
+schema{
+  query: Query
+  mutation: Mutation
+}
+
+type Query{
+  allPlayer: [Player]
+}
+
+type Player {
+	id: ID!
+	name: String!
+	surname: String!
+	position: String
+}
+
+type Mutation{
+    addPlayer(name: String!, surname: String!, position: String!): Player
+    deletePlayer(id:ID): String
+}
