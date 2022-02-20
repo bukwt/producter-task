@@ -6,7 +6,7 @@ SpringBoot application with maven as solution to the task given by Producter com
 
 In order to establish a database connection you can add your password to the password field in the to file application.yml file at producter-task/src/main/resources/application.yml.
 
-To create the database, the required table and dummy data (optionally) the SQL statements at data.txt (at producter-task/data.txt) file can be use.
+To create the database, the required table and dummy data (optionally) the SQL statements at data.txt (at producter-task/data.txt) file can be used.
 
 # Example Usages
 
