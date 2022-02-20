@@ -1,6 +1,6 @@
 # producter-task
 
-SpringBoot application with maven as solution to the task given by Producter company team.Using MySQL database.
+Spring Boot application with maven as solution to the task given by Producter company team.Using MySQL database.
 
 # Requirements to Run The Project
 
